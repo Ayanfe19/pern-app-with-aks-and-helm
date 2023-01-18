@@ -12,4 +12,6 @@ This is my own implementation of the Lab.
 3. Azure Account
 4. Azure CLI
 5. PostgreSQL on Azure
-6. pgAdmin
+6. pgAdmin or Postbird
+7. Kubectl
+8. Minikube
