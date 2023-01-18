@@ -1,3 +1,7 @@
-# pern-stack-example
-Example Project on how to develop and build PERN Stack
-# pern-app-with-aks-and-helm
+# PERN APP WITH AKS & HELM
+
+An example project on how to deploy a PERN app, on AKS using helm.
+
+Steps:
+
+## 1. 
