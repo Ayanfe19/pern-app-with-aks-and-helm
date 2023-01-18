@@ -7,7 +7,7 @@ This project is based on one of [Bhargav Bachina's](https://medium.com/@bhargavb
 This is my own implementation of the Lab.
 
 ## Prerequisites
-1. Docker
+1. Docker & DockerHub Account
 2. Git
 3. Azure Account
 4. Azure CLI
