@@ -10,7 +10,7 @@ image:
 
 service:
   type: LoadBalancer
-  port: 80
+  port: 3080
 
 ingress:
   enabled: false
