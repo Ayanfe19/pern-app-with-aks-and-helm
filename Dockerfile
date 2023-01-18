@@ -20,6 +20,6 @@ COPY --from=api-build /usr/src/api/dist .
 COPY api/swagger.css .
 RUN ls
 
-EXPOSE 3080
+EXPOSE 80
 
 CMD ["node", "api.bundle.js"]

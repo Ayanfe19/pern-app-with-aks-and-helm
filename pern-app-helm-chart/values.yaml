@@ -1,0 +1,31 @@
+# Default values for pern-app-helm-chart.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+replicaCount: 1
+
+image:
+  repository: docker.io/ayanf3d3v/pern-app:v1.0
+  pullPolicy: Always
+
+application:
+  name: pern-app
+
+service:
+  type: LoadBalancer
+  port: 3080
+
+ingress:
+  enabled: false
+  className: "nginx"
+  annotations:
+    # kubernetes.io/ingress.class: nginx
+    # kubernetes.io/tls-acme: "true"
+  hosts:
+    - paths:
+        - path: /
+          pathType: Prefix
+  tls: []
+  #  - secretName: chart-example-tls
+  #    hosts:
+  #      - chart-example.local
