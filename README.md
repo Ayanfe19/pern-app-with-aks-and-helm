@@ -15,3 +15,4 @@ This is my own implementation of the Lab.
 6. pgAdmin or Postbird
 7. Kubectl
 8. Minikube
+9. Helm
